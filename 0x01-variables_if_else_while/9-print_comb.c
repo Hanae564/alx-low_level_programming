@@ -5,20 +5,20 @@
  */
 int main(void)
 {
-	char i;
+	int i;
 
-	i = 48;
+	i = 0;
 
-	while (i <= 57)
+	while (i <= 9)
 	{
-		putchar(i);
-		if (i != 57)
+		putchar(i + '0');
+		if (i != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 		i++;
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
