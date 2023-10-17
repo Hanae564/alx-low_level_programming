@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- *  * 0-isupper - check if the character c is upper
- *   * @c: The character to check
- *    * Return: On success 1.
- *     */
+* print_most_numbers  - Entry point
+*  descreption: 'print from 1 to 10 except 2 and 4'
+*   written by black
+* Return:  always 0 (success)
+**/
 void print_most_numbers(void)
 {
 	int i;
 	i = 48;
+
 	while (i <= 57)
 	{
 		if (i == 50 || i == 52)
@@ -15,6 +17,7 @@ void print_most_numbers(void)
 			i++;
 			continue;
 		}
+
 		putchar(i);
 		i++;
 	}

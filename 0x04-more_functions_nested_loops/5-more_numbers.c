@@ -1,16 +1,19 @@
 #include "main.h"
 /**
- *  * 0-isupper - check if the character c is upper
- *   * @c: The character to check
- *    * Return: On success 1.
- */
+*  more_numbers  - Entry piont
+* Description: 'print numbers to 14 ten time'
+* Return: always 0
+*/
 void more_numbers(void)
 {
-	int i,j;
+	int i, j;
+
 	j = 0;
+
 	while (j < 10)
 	{
-		for(i = 0; i <= 14; i++)
+
+		for (i = 0; i <= 14; i++)
 		{
 			if (i >= 10 && i <= 14)
 			{
@@ -18,7 +21,9 @@ void more_numbers(void)
 			}
 			putchar(i % 10 + '0');
 		}
+
 		j++;
+
 		putchar('\n');
 	}
 }

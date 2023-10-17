@@ -1,12 +1,15 @@
 #include <stdio.h>
 /**
- *  * 0-isupper - check if the character c is upper
- *   * @c: The character to check
- *    * Return: On success 1.
- *     */
+* print_line  - Entry point
+* @n : 'n is the number of times the character _ should be printed'
+*  descreption: 'draw line in terminal'
+*   written by black
+* Return:  always 0 (success)
+**/
 void print_line(int n)
 {
 	int i;
+
 	if (n <= 0)
 	{
 		putchar('\n');
